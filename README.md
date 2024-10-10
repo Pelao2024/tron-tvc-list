@@ -6,45 +6,45 @@ Follow the steps below to add a new token：
 2) change the JSON file `tokenlist.json`, adding such as: (PLEASE DO NOT REMOVE EXISITING TOKENS)
 ```
 {
-      "address": "TLa2f6VPqDgRE67v1736s7bJ8Ray5wYjU7",
-      "symbol": "WIN",
-      "name": "WINkLink",
+      "address": TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t
+      "symbol": usdt
+      "name": usdttoken
       "decimals": 6,
       "logoURI": "https://coin.top/profile_images/JKtJTydD_400x400.jpg",
-      "homepage": "https://winklink.org/",
-      "MarketCapLink": "https://coinmarketcap.com/currencies/wink/",
+      "homepage": "https://usdtlink.org/",
+      "MarketCapLink": "https://coinmarketcap.com/currencies/usdtlink/",
       "existingMarkets": [
           {
               "source": "Binance",
               "pairs": [
-                  "WIN/USDT",
-                  "WIN/BUSD",
-                  "WIN/BNB",
-                  "WIN/USDC"
+                  "tron/USDT",
+                  "tron/BUSD",
+                  "tron/BNB",
+                  "tron/USDC"
               ]
           },
           {
-              "source": "Poloniex",
+              "source": "tether",
               "pairs": [
-                  "WIN/USDT"
+                  "tron/USDT"
               ]
           },
           {
-              "source": "KuCoin",
+              "source": "metamask",
               "pairs": [
-                  "WIN/USDT"
+                  "tron/USDT"
               ]
           }
     ]
 }
 ```
-* `address`[Required]: your token address.
-* `symbol`[Required]: your token symbol.
-* `name`[Required]: your token name.
-* `logoURI`[Required]: the logo URI of your token.
-* `homepage`[Required]: the home page of your token.
+* `address`[TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t]: your token address.
+* `symbol`[usdt]: your token symbol.
+* `name`[usdttoken]: your token name.
+* `logoURI`[https://coin.top/profile_images/JKtJTydD_400x400.jpg]: the logo URI of your token.
+* `homepage`[https://usdtlink.org/]: the home page of your token.
 * `MarketCapLink`[Optional]: the coinmarketcap or coingecko link for your token.
-* `existingMarkets`[Required]: where to trade with your token.
+* `existingMarkets`[Binance]: where to trade with your token.
 3) Submit PR with the changed JSON file.
 
 
