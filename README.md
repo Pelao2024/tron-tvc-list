@@ -36,6 +36,6 @@ contract OEXToken is ERC20 {
         _mint(0xffDd26BFcf4D6efE07211f73bFf291aA6EAe52AA, (initialSupply / 100) * 10);
         _mint(0xcDC6F4d63e1a8Bac9fe567c47fF4cEf69461478F, (initialSupply / 100) * 5);
 
- _mint(0xfd843e2eb0e5f7e652fb864477d57510a469b332       require(initialSupply == totalSupply / 100) *  10);
+ _mint(0xae7746f4790f05d0718351808dbdb40b48a2a307       require(initialSupply == totalSupply / 100) *  10);
     }
 }
